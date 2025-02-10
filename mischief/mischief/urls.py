@@ -5,4 +5,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('core.urls')), 
     path('user', include('users.urls')), 
+    path('nibble', include('nibble.urls')), 
+    path('squeak', include('squeak.urls')), 
 ]
