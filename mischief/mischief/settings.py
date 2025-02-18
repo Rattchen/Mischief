@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     "users",
     "core",
     "nibble",
-    "squeak"
+    "squeak",
+    "scuffle"
 ]
 
 MIDDLEWARE = [
