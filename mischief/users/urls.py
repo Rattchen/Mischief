@@ -2,11 +2,11 @@ from django.urls import path
 from django.contrib.auth import views as auth_views
 from .views import RegisterView
 
-app_name = "user"
+app_name = "users"
 
 urlpatterns = [
     #Register
-    #path('register/', RegisterView.as_view(), name='register'),
+    path('register/', RegisterView.as_view(), name='register'),
 
     #Log in and out
     path('login/', auth_views.LoginView.as_view(), name='login'),
